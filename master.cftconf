@@ -1,0 +1,22 @@
+[Project]
+	project_name = XEC190_VLT_WP1c_v2
+
+[DesignVariation]
+	run_design_variation_bool = False
+
+[Simerics]
+	run_simerics_bool = True
+
+[steady]
+	avg_window = 50
+	
+[transient]
+	run_transient_bool = True
+	avg_window = 120
+
+[PerformanceMap]
+	run_performance_map_bool = True
+	rpm_type = relative
+	rpm_values = 1.00
+	flowrate_type = relative
+	flowrate_values = 0.50 0.75 1.00 1.25 1.50
